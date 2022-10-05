@@ -1,0 +1,29 @@
+.card__info{
+    background-color: rgba(255, 255, 255, 0.507);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid greenyellow;
+    margin: 1rem;
+}
+
+
+.card__info--title{
+    padding-bottom: 1rem;   
+}
+.card__info--list{
+   
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    max-width: 600px;
+    gap: 3rem;
+}
+.card__info--span{
+    font-weight: 600;
+    font-size: 1.1rem;    
+    color: var(--background-cards);
+    margin-right: 0.5rem;
+}
+  
